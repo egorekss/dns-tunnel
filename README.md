@@ -2,7 +2,11 @@
 
 Native macOS client for **iodine** DNS-over-IP tunnel. A polished, Streisand-style app that lets you tunnel all your traffic through DNS queries — useful in restrictive networks (hotels, airports, captive portals, corporate DPI) where regular VPN is blocked but DNS still works.
 
-![Status: alpha](https://img.shields.io/badge/status-alpha-orange) ![Platform: macOS 13+](https://img.shields.io/badge/macOS-13%2B-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![Status: alpha](https://img.shields.io/badge/status-alpha-orange) ![Platform: macOS 13+](https://img.shields.io/badge/macOS-13%2B-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green) ![Donate USDT](https://img.shields.io/badge/donate-USDT_TRC20-26A17B)
+
+> **Like the project? Thank the author here:**
+> `THMomvCtsbthM4hoZSW4AyvSbyn5wc6WUt` (USDT • TRC20 / TRON)
+> — every coffee helps me keep this maintained. There's also a QR code in the app's About tab.
 
 ## Features
 
@@ -154,16 +158,23 @@ This is the same model used by Tunnelblick, Mullvad, and most other Mac VPN clie
 - **iOS not supported** — Apple's NetworkExtension restrictions and the lack of an iodine port mean DNS tunneling on iPhone is essentially impossible without a paid Apple Developer account and a custom-built app.
 - **App is not notarized.** Right-click → Open on first launch to bypass Gatekeeper warning.
 
-## Donate
+## Support the author
 
-If this saved you in a hotel or airport, a coffee is appreciated:
+If this app saved you in a hotel, airport, or any blocked network — please consider sending a tip. It directly funds maintenance, new features, and keeps the project alive.
 
-**USDT (TRC20 / TRON):**
+**USDT — TRC20 (TRON network):**
+
 ```
 THMomvCtsbthM4hoZSW4AyvSbyn5wc6WUt
 ```
 
-(There's also a QR code in the **About** tab of the app.)
+A QR code with the same address is available in the **About** tab inside the app.
+
+Other ways to support:
+
+- Star the repo on GitHub
+- Open issues with bug reports / feature requests
+- Send a PR with a fix, a translation, or a screenshot for the README
 
 ## License
 
