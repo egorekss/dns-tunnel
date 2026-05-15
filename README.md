@@ -6,15 +6,15 @@ Native macOS client for **iodine** DNS-over-IP tunnel. A polished, Streisand-sty
 
 ## Features
 
-- 🛡️ **Native SwiftUI app** — no Electron, no Java, ~1.6 MB
-- 🌐 **Multiple server profiles** — switch between your servers
-- ⚡ **One-click connect/disconnect** — big green/red button
-- 🔄 **Smart VPN conflict resolution** — auto-detects and disconnects active Streisand / IKEv2 / OpenVPN / WireGuard / sing-box / v2ray / Outline / Tunnelblick before establishing the tunnel
-- 🍎 **Lives in menu bar AND Dock** — toggle Dock visibility in settings
-- 🌍 **Localized** — English and Russian, auto-selects from system language
-- 💻 **Universal binary** — runs natively on Apple Silicon (arm64) and Intel (x86_64)
-- 🔒 **No analytics, no telemetry** — your config never leaves your Mac
-- 🔌 **Universal client** — works with any iodine server, configure your own from the UI
+- **Native SwiftUI app** — no Electron, no Java, ~1.6 MB
+- **Multiple server profiles** — switch between your servers
+- **One-click connect/disconnect** — big green/red button
+- **Smart VPN conflict resolution** — auto-detects and disconnects active Streisand / IKEv2 / OpenVPN / WireGuard / sing-box / v2ray / Outline / Tunnelblick before establishing the tunnel
+- **Lives in menu bar AND Dock** — toggle Dock visibility in settings
+- **Localized** — English and Russian, auto-selects from system language
+- **Universal binary** — runs natively on Apple Silicon (arm64) and Intel (x86_64)
+- **No analytics, no telemetry** — your config never leaves your Mac
+- **Universal client** — works with any iodine server, configure your own from the UI
 
 ## Screenshots
 

@@ -69,7 +69,7 @@ struct AboutView: View {
                         copied = true
                         DispatchQueue.main.asyncAfter(deadline: .now() + 2) { copied = false }
                     } label: {
-                        Label(copied ? "Copied ✓" : "Copy address", systemImage: "doc.on.doc")
+                        Label(copied ? "Copied" : "Copy address", systemImage: "doc.on.doc")
                     }
                     .buttonStyle(.bordered)
                 }

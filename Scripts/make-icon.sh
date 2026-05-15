@@ -78,4 +78,4 @@ for size in "${sizes[@]}"; do
 done
 
 iconutil -c icns "$ICONSET" -o "$OUT"
-echo "✅ Готово: $OUT"
+echo "Done: $OUT"

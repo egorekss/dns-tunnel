@@ -20,9 +20,9 @@ In your domain's DNS panel (Cloudflare, reg.ru, Namecheap, ...), add **two recor
 | `ns1` | A | `<VPS public IP>` | Glue record — `ns1.yourdomain.com` resolves to your VPS |
 | `t` | NS | `ns1.yourdomain.com.` | Delegates `t.yourdomain.com` zone to your VPS |
 
-⚠️ **Order matters** — add the A record first, then the NS. The trailing dot in the NS value matters.
+**Order matters** — add the A record first, then the NS. The trailing dot in the NS value matters.
 
-⚠️ The subdomain `t` is intentionally short — DNS labels are limited to 63 chars, total query 255. The shorter your subdomain, the more payload bytes per query.
+**Note:** the subdomain `t` is intentionally short — DNS labels are limited to 63 chars, total query 255. The shorter your subdomain, the more payload bytes per query.
 
 Wait 1–4 hours for propagation. Verify:
 
