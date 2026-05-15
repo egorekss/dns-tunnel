@@ -1,0 +1,94 @@
+/* DNS Tunnel — Russian translation */
+
+/* Tabs */
+"Connection" = "Подключение";
+"Servers" = "Серверы";
+"Settings" = "Настройки";
+"About" = "О программе";
+
+/* Status / connection */
+"Disconnected" = "Не подключен";
+"Connecting…" = "Подключение…";
+"Disconnecting…" = "Отключение…";
+"Connected — %@" = "Подключен — %@";
+"Error" = "Ошибка";
+"Error: %@" = "Ошибка: %@";
+"Connect" = "Подключить";
+"Disconnect" = "Отключить";
+"Server:" = "Сервер:";
+"Open log" = "Открыть лог";
+"Helper not installed" = "Helper не установлен";
+
+/* VPN conflict alert */
+"Active VPNs detected" = "Обнаружены активные VPN";
+"Disconnect and connect" = "Отключить и подключиться";
+"Cancel" = "Отмена";
+"Found: %@\n\nThese connections must be terminated. Do this automatically?" = "Найдено: %@\n\nЭти соединения нужно разорвать. Сделать это автоматически?";
+
+/* Servers tab */
+"Add" = "Добавить";
+"No servers yet" = "Серверов ещё нет";
+"Press “+ Add” to enter your iodined server parameters." = "Нажмите «+ Добавить» чтобы ввести параметры iodined-сервера.";
+"Make active" = "Сделать активным";
+"Edit" = "Изменить";
+"Delete" = "Удалить";
+"Delete “%@”?" = "Удалить «%@»?";
+"Server will be removed from the list." = "Сервер будет удалён из списка.";
+
+/* Server edit */
+"New server" = "Новый сервер";
+"Edit server" = "Редактировать сервер";
+"Name" = "Название";
+"Tunnel domain" = "Домен туннеля";
+"Password" = "Пароль";
+"Server IP" = "IP сервера";
+"iodined password" = "пароль iodined";
+"My VPS" = "Мой VPS";
+"Parameters come from the iodined config on the server side. See docs/server-setup.md." = "Параметры берутся из конфига iodined на стороне сервера. См. docs/server-setup.md.";
+"Save" = "Сохранить";
+
+/* Settings */
+"CONNECTION" = "ПОДКЛЮЧЕНИЕ";
+"Automatically disconnect other VPNs when connecting" = "Автоматически отключать другие VPN при подключении";
+"System VPNs (Streisand, IKEv2, L2TP, NetworkExtension) are stopped via `scutil --nc stop`. Known processes (openvpn, wg-quick, sing-box, v2ray, xray, OutlineService, Tunnelblick) are killed by the helper script." = "Системные VPN (Streisand, IKEv2, L2TP, NetworkExtension) разрываются через `scutil --nc stop`. Известные процессы (openvpn, wg-quick, sing-box, v2ray, xray, OutlineService, Tunnelblick) убиваются helper-скриптом.";
+"DNS" = "DNS";
+"Use public DNS (1.1.1.1, 8.8.8.8)" = "Использовать публичный DNS (1.1.1.1, 8.8.8.8)";
+"When the tunnel is active, DNS queries must not go through the tunnel itself, otherwise there will be a circular dependency. Recommended to keep on." = "При активном туннеле DNS-запросы не должны идти через сам туннель — иначе будет циклическая зависимость. Рекомендуется оставить включённым.";
+"APPEARANCE" = "ВНЕШНИЙ ВИД";
+"Show Dock icon" = "Показывать иконку в Dock";
+"When disabled, the app runs only from the menu bar (like a regular VPN client)." = "Когда выключено, приложение работает только из строки меню (как обычный VPN-клиент).";
+"SYSTEM COMPONENTS" = "СИСТЕМНЫЕ КОМПОНЕНТЫ";
+"Helper script installed" = "Helper-скрипт установлен";
+"Helper script not found" = "Helper-скрипт не найден";
+"Run `Scripts/install-helper.sh` from the app folder with administrator privileges." = "Запустите `Scripts/install-helper.sh` из папки приложения с правами администратора.";
+"iodine: %@" = "iodine: %@";
+"iodine not installed — `brew install iodine`" = "iodine не установлен — `brew install iodine`";
+
+/* About */
+"Version %@" = "Версия %@";
+"Universal client for the iodine DNS tunnel for macOS. Connects to an iodined server and forwards IP traffic through DNS queries. Works in places where regular VPN is blocked but DNS is open." = "Универсальный клиент DNS-туннеля iodine для macOS. Подключается к серверу iodined и пробрасывает IP-трафик через DNS-запросы. Работает там, где обычный VPN заблокирован, но открыт DNS.";
+"Support the author" = "Поддержать автора";
+"If this app is useful — send some USDT on TRON network (TRC20):" = "Если приложение полезно — переведите USDT в сети TRON (TRC20):";
+"USDT • TRC20 (TRON)" = "USDT • TRC20 (TRON)";
+"Copy address" = "Скопировать адрес";
+"Copied ✓" = "Скопировано ✓";
+"License:" = "Лицензия:";
+"Source code:" = "Исходный код:";
+"Iodine:" = "Iodine:";
+
+/* Menu bar */
+"Open window" = "Открыть окно";
+"Quit" = "Выход";
+
+/* Errors / programmatic strings */
+"Please enter a server name" = "Укажите название сервера";
+"Please enter the tunnel domain" = "Укажите домен туннеля";
+"Please enter the password" = "Укажите пароль";
+"Please enter the server IP" = "Укажите IP сервера";
+"IP must be in format 1.2.3.4" = "IP должен быть в формате 1.2.3.4";
+"My server" = "Мой сервер";
+"unknown VPN on %@" = "неизвестный VPN на %@";
+"Could not free default route. Disconnect VPN manually." = "Не удалось освободить default route. Отключите VPN вручную.";
+"No server selected" = "Сервер не выбран";
+"Cancelled by user" = "Отменено пользователем";
+"Helper not installed (%@). Run Scripts/install-helper.sh." = "Helper не установлен (%@). Запустите Scripts/install-helper.sh.";

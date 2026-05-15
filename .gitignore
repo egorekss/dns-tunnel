@@ -1,0 +1,23 @@
+# Build artefacts
+Build/
+.build/
+DerivedData/
+*.app
+
+# macOS
+.DS_Store
+._*
+
+# Xcode (if anyone opens via Xcode later)
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+.swiftpm/
+
+# Editors
+*.swp
+*~
+.idea/
+.vscode/
+
+# Generated
+Build/

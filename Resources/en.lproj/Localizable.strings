@@ -1,0 +1,94 @@
+/* DNS Tunnel — English (source language) */
+
+/* Tabs */
+"Connection" = "Connection";
+"Servers" = "Servers";
+"Settings" = "Settings";
+"About" = "About";
+
+/* Status / connection */
+"Disconnected" = "Disconnected";
+"Connecting…" = "Connecting…";
+"Disconnecting…" = "Disconnecting…";
+"Connected — %@" = "Connected — %@";
+"Error" = "Error";
+"Error: %@" = "Error: %@";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Server:" = "Server:";
+"Open log" = "Open log";
+"Helper not installed" = "Helper not installed";
+
+/* VPN conflict alert */
+"Active VPNs detected" = "Active VPNs detected";
+"Disconnect and connect" = "Disconnect and connect";
+"Cancel" = "Cancel";
+"Found: %@\n\nThese connections must be terminated. Do this automatically?" = "Found: %@\n\nThese connections must be terminated. Do this automatically?";
+
+/* Servers tab */
+"Add" = "Add";
+"No servers yet" = "No servers yet";
+"Press “+ Add” to enter your iodined server parameters." = "Press “+ Add” to enter your iodined server parameters.";
+"Make active" = "Make active";
+"Edit" = "Edit";
+"Delete" = "Delete";
+"Delete “%@”?" = "Delete “%@”?";
+"Server will be removed from the list." = "Server will be removed from the list.";
+
+/* Server edit */
+"New server" = "New server";
+"Edit server" = "Edit server";
+"Name" = "Name";
+"Tunnel domain" = "Tunnel domain";
+"Password" = "Password";
+"Server IP" = "Server IP";
+"iodined password" = "iodined password";
+"My VPS" = "My VPS";
+"Parameters come from the iodined config on the server side. See docs/server-setup.md." = "Parameters come from the iodined config on the server side. See docs/server-setup.md.";
+"Save" = "Save";
+
+/* Settings */
+"CONNECTION" = "CONNECTION";
+"Automatically disconnect other VPNs when connecting" = "Automatically disconnect other VPNs when connecting";
+"System VPNs (Streisand, IKEv2, L2TP, NetworkExtension) are stopped via `scutil --nc stop`. Known processes (openvpn, wg-quick, sing-box, v2ray, xray, OutlineService, Tunnelblick) are killed by the helper script." = "System VPNs (Streisand, IKEv2, L2TP, NetworkExtension) are stopped via `scutil --nc stop`. Known processes (openvpn, wg-quick, sing-box, v2ray, xray, OutlineService, Tunnelblick) are killed by the helper script.";
+"DNS" = "DNS";
+"Use public DNS (1.1.1.1, 8.8.8.8)" = "Use public DNS (1.1.1.1, 8.8.8.8)";
+"When the tunnel is active, DNS queries must not go through the tunnel itself, otherwise there will be a circular dependency. Recommended to keep on." = "When the tunnel is active, DNS queries must not go through the tunnel itself, otherwise there will be a circular dependency. Recommended to keep on.";
+"APPEARANCE" = "APPEARANCE";
+"Show Dock icon" = "Show Dock icon";
+"When disabled, the app runs only from the menu bar (like a regular VPN client)." = "When disabled, the app runs only from the menu bar (like a regular VPN client).";
+"SYSTEM COMPONENTS" = "SYSTEM COMPONENTS";
+"Helper script installed" = "Helper script installed";
+"Helper script not found" = "Helper script not found";
+"Run `Scripts/install-helper.sh` from the app folder with administrator privileges." = "Run `Scripts/install-helper.sh` from the app folder with administrator privileges.";
+"iodine: %@" = "iodine: %@";
+"iodine not installed — `brew install iodine`" = "iodine not installed — `brew install iodine`";
+
+/* About */
+"Version %@" = "Version %@";
+"Universal client for the iodine DNS tunnel for macOS. Connects to an iodined server and forwards IP traffic through DNS queries. Works in places where regular VPN is blocked but DNS is open." = "Universal client for the iodine DNS tunnel for macOS. Connects to an iodined server and forwards IP traffic through DNS queries. Works in places where regular VPN is blocked but DNS is open.";
+"Support the author" = "Support the author";
+"If this app is useful — send some USDT on TRON network (TRC20):" = "If this app is useful — send some USDT on TRON network (TRC20):";
+"USDT • TRC20 (TRON)" = "USDT • TRC20 (TRON)";
+"Copy address" = "Copy address";
+"Copied ✓" = "Copied ✓";
+"License:" = "License:";
+"Source code:" = "Source code:";
+"Iodine:" = "Iodine:";
+
+/* Menu bar */
+"Open window" = "Open window";
+"Quit" = "Quit";
+
+/* Errors / programmatic strings */
+"Please enter a server name" = "Please enter a server name";
+"Please enter the tunnel domain" = "Please enter the tunnel domain";
+"Please enter the password" = "Please enter the password";
+"Please enter the server IP" = "Please enter the server IP";
+"IP must be in format 1.2.3.4" = "IP must be in format 1.2.3.4";
+"My server" = "My server";
+"unknown VPN on %@" = "unknown VPN on %@";
+"Could not free default route. Disconnect VPN manually." = "Could not free default route. Disconnect VPN manually.";
+"No server selected" = "No server selected";
+"Cancelled by user" = "Cancelled by user";
+"Helper not installed (%@). Run Scripts/install-helper.sh." = "Helper not installed (%@). Run Scripts/install-helper.sh.";
