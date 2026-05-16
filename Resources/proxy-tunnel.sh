@@ -81,7 +81,7 @@ EOF
 
     # 2. Стартуем iodine в фоне (без nohup — он не работает без TTY в osascript)
     : > "$LOG_FILE"
-    "$IODINE_BIN" -f -P "$password" "$domain" </dev/null >>"$LOG_FILE" 2>&1 &
+    "$IODINE_BIN" -f -r -P "$password" "$domain" </dev/null >>"$LOG_FILE" 2>&1 &
     local iodine_pid=$!
     disown "$iodine_pid" 2>/dev/null || true
     echo "$iodine_pid" > "$PID_FILE"
